@@ -1,0 +1,17 @@
+.cs0 {
+  background-color: rgba(100,100,100,0.8);
+  border-radius:20px;
+  border-width: 0px;
+  padding: 2em;
+
+}
+.cs1 {
+  background-color: #546e7a;
+  border-radius: 0 0 2px 2px;
+  padding: 24px;
+  color: white;
+}
+
+.cs1 a {
+  color: greenyellow;
+}

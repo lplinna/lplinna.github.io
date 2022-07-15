@@ -8,13 +8,14 @@
   <!-- Compiled and minified CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
 
+  <link rel="stylesheet" type="text/css" href="assets/picnic-ver/mainstyle.css" >
   <style>
 
     .curtain{
       width: 100%;
       min-height:auto;
-      background:url(assets/images/unknown1-1920x1080.png) no-repeat 0, 0 rgba(140, 175, 240,0.9);
-      background-blend-mode: screen;
+      background: linear-gradient(rgba(140, 175, 240,0.8),rgba(140, 175, 240,0.8)),url(assets/images/unknown1-1920x1080.png) no-repeat 0;
+      background-blend-mode: normal;
 
     }
 
@@ -23,13 +24,6 @@
       text-align:center;
       font-weight:bold; 
     }
-
-    .card {
-      background-color: #546e7a;
-      border-radius: 0 0 2px 2px;
-      padding: 24px;
-    }
-
 
     .middle
     {
@@ -41,8 +35,6 @@
     {
       height:calc(15vw);
     }
-
-
   </style>
 </head>
 
@@ -50,24 +42,25 @@
 
 
   
-  <div style="overflow: hidden;height: 2rem;"> <!-- For Demo, Represents the body -->
-  <nav class="demo">
-    <a href="#" class="brand">
-      <img class="logo" src="assets/images/me-image-121x161.jpg" />
-      <span>Luke Linna</span>
-    </a>
+  <div style="overflow: hidden;height: 2rem;">
+    <!-- For Demo, Represents the body -->
+    <nav class="demo">
+      <a href="#" class="brand">
+        <img class="logo" src="assets/images/me-image-121x161.jpg" />
+        <span>Luke Linna</span>
+      </a>
   
-    <!-- responsive-->
-    <input id="bmenub" type="checkbox" class="show">
-    <label for="bmenub" class="burger pseudo button">menu</label>
+      <!-- responsive-->
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button">menu</label>
   
-    <div class="menu">
-      <a href="index.html" class="pseudo button ">Home</a>
-      <a href="page1temp3.html" class="pseudo button ">Projects</a>
-      <a href="page2.html" class="pseudo button ">Resume</a>
-      <a href="page3.html" class="pseudo button ">Job History</a>
-    </div>
-  </nav>
+      <div class="menu">
+        <a href="index.html" class="pseudo button ">Home</a>
+        <a href="page1temp3.html" class="pseudo button ">Projects</a>
+        <a href="page2.html" class="pseudo button ">Resume</a>
+        <a href="page3.html" class="pseudo button ">Job History</a>
+      </div>
+    </nav>
   
   </div>
 
@@ -75,25 +68,47 @@
 
 
   <div class="curtain">
-    <div class = "lowplan"></div>
-    <div class = "hello">Welcome!</div>
-    <div class = "card third-800 middle">
+    <div class="lowplan"></div>
+    <div class="hello">Welcome!</div>
+    <div class="card cs0 third-800 middle">
       <h2>I'm Luke Linna - an aspiring programmer with a particular set of skills.
-      Here you can learn who I am and what I do.</h2>
-      </div>
-      <div class = "lowplan"></div>
+        Here you can learn who I am and what I do.</h2>
+    </div>
+    <div class="lowplan"></div>
   </div>
-
   
-
+  
   <div class="flex three">
     <span class="sixth"></span>
-    <div class = "two-third">
+    <div class="two-third">
       <h1>Who am i?</h1>
-    <div class="card">
-      Currently I'm attending University of Wisconsin - Stout for a B.S in Computer Science with an emphasis in game
-      design. I aspire to be a part of the game design industry, producing emotional and fun experiences people will love.
-    </div>
+      <div class="card cs1">
+        Well, it's easiest to answer that question with where I live first. I come from Green Bay, Wisconsin, where my
+        parents live in the middle of a large and somewhat boring suburb. With anything notable being a thirty-minute walk
+        in any direction, it's easy to see why I preferred staying inside and gaming over having adventures in the open.
+  
+        <br><br>My dad is a programmer for the local school district, and he's part of the reason that I got into gaming. I love
+        playing video games with him or sharing the latest and greatest game to get me excited.
+  
+        <br><br>My mom has both impaired vision and hearing, to the level that she needs a cane to navigate outside and hearing
+        aids to listen to conversations. Through her, I learned that no matter what problems you may have you can still
+        live a powerful and fulfilling life.
+  
+  
+        <br><br>In high school, I met friends who had very different existences than mine. I learned quickly that my life was one
+        of comfort and privilege; I got along with everyone in my family, we rarely had financial concerns, and safety was
+        everything but guaranteed. For many, that's not always the case.
+  
+        <br><br>You know the drill: at my age, I'll take any job I can get. But I'd much rather make something inspiring,
+        something that might help a bad day become a little better for someone out there. And quite often, the most
+        effective way to do this is a nice, cathartic video game that pulls you in, develops your emotions, and spits you
+        out into the real world again.
+      </div>
+      <div class="card cs1">
+        Currently I'm attending University of Wisconsin - Stout for a B.S in Computer Science with an emphasis in game
+        design. I aspire to be a part of the game design industry, producing emotional and fun experiences that people will
+        love.
+      </div>
     </div>
     <span class="sixth"></span>
   </div>
