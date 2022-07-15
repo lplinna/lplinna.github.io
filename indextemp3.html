@@ -9,16 +9,13 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
 
   <style>
-    .container {
-      width: 75vw;
-      margin: auto;
-    }
 
     .curtain{
       width: 100%;
-      height:100%;
+      min-height:auto;
       background:url(assets/images/unknown1-1920x1080.png) no-repeat 0, 0 rgba(140, 175, 240,0.9);
       background-blend-mode: screen;
+
     }
 
     .hello {
@@ -31,6 +28,12 @@
       background-color: #546e7a;
       border-radius: 0 0 2px 2px;
       padding: 24px;
+    }
+
+
+    .middle
+    {
+      margin: 0 auto;
     }
 
 
@@ -73,23 +76,27 @@
 
   <div class="curtain">
     <div class = "lowplan"></div>
-    <div class="flex three-800">
-      <span></span>
-      <div>
-        <div class = "hello">Welcome!</div>
-      <div class = "card">
-        <h2>I'm Luke Linna - an aspiring programmer with a particular set of skills.
-        Here you can learn who I am and what I do.</h2>
-        </div>
-    </div>
-    <span></span>
-    </div>
-
-
-
-    
+    <div class = "hello">Welcome!</div>
+    <div class = "card third-800 middle">
+      <h2>I'm Luke Linna - an aspiring programmer with a particular set of skills.
+      Here you can learn who I am and what I do.</h2>
+      </div>
+      <div class = "lowplan"></div>
   </div>
 
+  
+
+  <div class="flex three">
+    <span class="sixth"></span>
+    <div class = "two-third">
+      <h1>Who am i?</h1>
+    <div class="card">
+      Currently I'm attending University of Wisconsin - Stout for a B.S in Computer Science with an emphasis in game
+      design. I aspire to be a part of the game design industry, producing emotional and fun experiences people will love.
+    </div>
+    </div>
+    <span class="sixth"></span>
+  </div>
 
 
 
