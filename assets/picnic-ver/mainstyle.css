@@ -12,6 +12,14 @@
   color: white;
 }
 
+.cs2 {
+  background-color: none;
+  color: black;
+  border-width: 5px 0 0 0;
+  border-color: black;
+  padding: 1.75rem;
+}
+
 .cs1 a {
   color: greenyellow;
 }
